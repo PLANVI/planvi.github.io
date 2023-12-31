@@ -1,18 +1,62 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 body,
-html{
+html {
     min-height: 100vh;
     background: linear-gradient(90deg, #ffd894 0%, #f59ec4 100%, #ffffff 100%);
 }
 
-h2{
+h2 {
     color: #641537;
 }
-.card-btn{
+
+.tracklist {
+    padding: 10px;
+    max-height: 220px;
+    overflow-y: scroll;
+    border-radius: 10px;
+
+    background-color: #ffffff;
+}
+
+.tracklist-header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.tracklist-name {
+    width: 100px;
+    text-align: center;
+
+    background-color: #641537;
+    color: white;
+
+    border-radius: 10px;
+}
+
+.time {
+    display: inline;
+    color: #00000096;
+
+    font-size: 12px;
+}
+
+.track-name {
+    display: flex;
+    justify-content: space-between;
+    margin-inline: 20px;
+    margin-bottom: 7px;
+    
+
+    font-size: 12px;
+}
+
+/* .card-btn{
     width: 100px;
     text-align: center;
 
@@ -28,47 +72,50 @@ h2{
 .card-btn a{
     color: white;
     text-decoration: none;
-}
+} */
 
 
 
-.banner{
-    
+.banner {
 
-    
+
+
     margin-bottom: 50px;
-   
+
     text-align: center;
-    
+
     border-radius: 10px;
 
     /* background-image: url('/sourse/images/bg-image.jpeg'); */
     /* background-repeat: no-repeat; */
 }
-.avatar-photo{
-   
-    width:60px;
+
+.avatar-photo {
+
+    width: 60px;
     border-radius: 50%;
 
     border-style: solid;
     border-width: 1.5px;
 
 }
-.name{
+
+.name {
     font-size: 10px;
     font-weight: 600;
     margin-top: 15px;
-    
+
     color: rgb(0, 0, 0);
 }
 
 /* MAIN */
-.main{
+.main {
     display: flex;
     justify-content: center;
 }
-.container{
-   /* padding: 0 auto; */
+
+.container {
+    /* padding: 0 auto; */
     width: 900px;
     /* height: 100vh; */
     /* margin-right: 70px; */
@@ -79,10 +126,10 @@ h2{
     /* background-color: rgba(163, 163, 163, 0.329); */
 }
 
-.video-cards{
+.video-cards {
     display: flex;
 
-   
+
 
     column-gap: 40px;
     row-gap: 40px;
@@ -92,16 +139,19 @@ h2{
 }
 
 
-.youtube-video{
+.youtube-video {
     border-radius: 20px;
 }
-.video-name{
+
+.video-name {
     margin-bottom: 5px;
 }
-.treck-link{
+
+.treck-link {
     margin: 0 auto;
     text-decoration: none;
     color: black;
 
-    
+
 }
+
